@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class SpringAzureDemoPracticeApplication {
 	@GetMapping("/message")
 	public String message(){
-		return "hello!! your application is deployed succesfully.....!";
+		return "hello!! your application is deployed succesfully.....!!";
 	}
 
 //	echo "# Azure-Git-Demo" >> README.md
